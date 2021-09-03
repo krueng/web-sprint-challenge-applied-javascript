@@ -30,17 +30,17 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
-- [ ] In a separate terminal, run `npm test` to run tests.
+- [x] Navigate to the root of the project with your command line.
+- [x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [x] Run `npm start` to compile the project and serve it.
+- [x] Navigate Chrome to `http://localhost:3000`
+- [x] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
-- [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
+- [x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+- [x] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -65,7 +65,16 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+- Document Object Model is tree-structure like interface serving HTML/XML document with the ability to change it's content structure, it is also cross platform and independent.
+
 2. What is an event?
+- Event is a manipulation, input, or inputs given by user or by the browser itself to show/tell that something had happened, or is happening. Mouse clicked, keyboard typed, etc.
+
 3. What is an event listener?
+- Event listener is an act of 'listening' by the browser waiting for instruction as well as interaction from the user or other items connected to the browser.
+
 4. Why would we convert a NodeList into an Array?
+- Because NodeList doesn't have or limited manipulation ability compare to Array.
+
 5. What is a component?
+- In it's very basic principal a component is a function that serves as a reusable pieces of codes, or a 'mold' to be reused limilessly within its scope.

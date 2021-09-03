@@ -70,9 +70,10 @@ const cardAppender = (selector) => {
       const ndx = Object.keys(arr);
       for (let i = 0; i < ndx.length; i++) {
         for (let ii = 0; ii < arr[ndx[i]].length; ii++) {
-          const headline = arr[ndx[i]][ii].headline;
-          const authorPhoto = arr[ndx[i]][ii].authorPhoto;
-          const authorName = arr[ndx[i]][ii].authorName;
+          // const headline = arr[ndx[i]][ii].headline;
+          // const authorPhoto = arr[ndx[i]][ii].authorPhoto;
+          // const authorName = arr[ndx[i]][ii].authorName;
+          const { headline, authorPhoto, authorName } = arr[ndx[i]][ii];
           document.querySelector(selector).appendChild(Card({ headline, authorPhoto, authorName }));
         }
       }

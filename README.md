@@ -53,12 +53,12 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes.
-- [ ] Create a pull request to merge `<firstName-lastName>` branch into `main`.
-- [ ] Please don't merge your own pull request and make sure **you are on your own repo**.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [x] Submit via Codegrade by committing and pushing any new changes.
+- [x] Create a pull request to merge `<firstName-lastName>` branch into `main`.
+- [x] Please don't merge your own pull request and make sure **you are on your own repo**.
+- [x] Check Codegrade for automated feedback.
+- [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
@@ -74,7 +74,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 - Event listener is an act of 'listening' by the browser waiting for instruction as well as interaction from the user or other items connected to the browser.
 
 4. Why would we convert a NodeList into an Array?
-- Because NodeList doesn't have or limited manipulation ability compare to Array.
+- Because NodeList has limited manipulation ability compare to Array.
 
 5. What is a component?
 - In it's very basic principal a component is a function that serves as a reusable pieces of codes, or a 'mold' to be reused limilessly within its scope.

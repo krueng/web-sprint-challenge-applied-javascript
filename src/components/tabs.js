@@ -32,7 +32,7 @@ const Tabs = (topics) => {
   return divTopics;
 }
 
-const tabsAppender = (selector) => {
+const tabsAppender = async (selector) => {
   // TASK 4
   // ---------------------
   // Implement this function which takes a css selector as its only argument.
@@ -40,7 +40,7 @@ const tabsAppender = (selector) => {
   // Find the array of topics inside the response, and create the tabs using the Tabs component.
   // Append the tabs to the element in the DOM that matches the selector passed to the function.
   //
-  const getTopics = async () => {
+  // const getTopics = async () => {
     try {
       const res = await axios.get(`http://localhost:5000/api/topics`);
       const arrTopics = res.data.topics;
@@ -50,8 +50,8 @@ const tabsAppender = (selector) => {
       errTxt.textContent = 'Please try again!'
       selector.appendChild(errTxt);
     }
-  }
-  getTopics();
+  // }
+  // getTopics();
 
 }
 export { Tabs, tabsAppender }
